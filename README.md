@@ -12,7 +12,7 @@ Estaticos para el Pry de Cloud Computing
 3. Para probar localmente, ejecute:
 	  npm start
 
-# Para este laboratorio (Cloud Computing):
+# Para este proyecto (Cloud Computing):
 4. Una vez validado, puede compilar los archivos con el comando:
 	  ng build --configuration=production
 
