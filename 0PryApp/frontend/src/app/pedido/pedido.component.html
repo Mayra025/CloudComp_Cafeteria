@@ -1,0 +1,37 @@
+<div class="container px-4 px-lg-5 sm-5">
+  <!--Seccion Cafeteria-->
+  <br><br>
+  <h1 class="page-section-heading text-center text-uppercase text-secondary mb-0">Cafetería</h1>
+
+  <!-- Icon Divider-->
+  <div class="divider-custom">
+    <div class="divider-custom-line"></div>
+    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+    <div class="divider-custom-line"></div>
+  </div>
+  <br />
+  <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger" class="row-border hover">
+    <thead>
+      <tr>
+        <th>Imagen</th>
+        <th>Nombre</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let plato of platos">
+        <td><img src="{{plato.imagen}}" style="width: 100px; height: 50px;" /></td>
+        <td>{{ plato.nombre }}</td>
+        <td>$ {{ plato.precio }}</td>
+
+      </tr>
+    </tbody>
+  </table>
+  <br>
+
+
+
+  <br><br><br>
+
+
+</div>
