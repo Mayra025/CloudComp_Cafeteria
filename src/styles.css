@@ -165,7 +165,7 @@ h1 {
 
 
 /*FORMULARIO PEDIDO*/
-.formularioPedido {
+/* .formularioPedido {
   background: url('../../../../AppWeb_Cafeteria/0PryApp/frontend/src/assets/img/fondoPedido.jpg');
   background-size: cover;
   background-position: center center;
@@ -173,7 +173,7 @@ h1 {
   padding: 20px;
   margin: 0 auto;
   width: 1000px;
-}
+} */
 
 @-webkit-keyframes automatizacion {
   0% {
